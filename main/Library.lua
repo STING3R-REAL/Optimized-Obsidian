@@ -452,9 +452,7 @@ function Library:GiveSignal(Connection: RBXScriptConnection)
 end
 
 local FetchIcons, Icons = pcall(function()
-    return loadstring(
-        game:HttpGet("https://raw.githubusercontent.com/STING3R-REAL/Optimized-Obsidian/main/main/LuicideFixed")
-    )()
+    error("fuck u")
 end)
 function Library:GetIcon(IconName: string)
     if not FetchIcons then
